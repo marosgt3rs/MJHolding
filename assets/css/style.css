@@ -337,7 +337,7 @@ button, a { transition: var(--transition); }
   padding: 4px 15px;
 }
 
-.header-top-btn:is(:hover, :focus) { --orange-soda: hsl(7, 72%, 46%); }
+.header-top-btn:is(:hover, :focus) { --orange-soda: hsl(0, 0%, 0%); }
 
 .header-bottom {
   background: var(--white);
@@ -1666,3 +1666,4 @@ button, a { transition: var(--transition); }
 .my-image {
   filter: brightness(85%) contrast(110%) saturate(100%) hue-rotate(220deg);
 }
+
